@@ -1,0 +1,71 @@
+@media only screen and (max-width: 1991px) and (min-width: 1400px) {}
+
+@media only screen and (max-width: 1199px) and (min-width: 992px) {
+    .bodyRightArea {
+	padding-left: 17%;
+}
+}
+
+@media all and (max-width:991px) {
+    .logoArea .logoLink .logoImage {
+	display: none;
+}
+    .socialMediaArea .socialMedia .socilaMediaList {
+	
+	border: none;
+}
+    .socialMediaArea .socialMedia {
+
+	padding-bottom: 10px;
+	flex-direction: column;
+}
+    .mailBox .contactText {
+	
+	display: none;
+}
+    .bodyLeftArea {
+	padding-left: 0px;
+}
+    .socialMediaArea {
+	position: fixed;
+	margin-top: 240px;
+}
+}
+
+@media all and (max-width:767px) {
+    .bodyRightArea {
+	margin-top: 200px;
+	padding-bottom: 300px;
+	padding-left: 13%;
+}
+}
+
+@media all and (max-width:577px) {
+    .bodyRightArea .textArea .bodyText {
+	font-size: 17px;
+
+}
+}
+
+@media all and (max-width:480px) {
+    .socialMediaArea {
+	position: fixed;
+	margin-top: 190px;
+}
+        .bodyRightArea {
+	margin-top: 180px;
+	padding-bottom: 250px;
+	padding-left: 15%;
+}
+}
+
+@media all and (max-width:400px) {}
+
+@media all and (max-width:375px) {}
+
+@media all and (max-width:350px) {
+        .bodyRightArea {
+
+	padding-left: 19%;
+}
+}
